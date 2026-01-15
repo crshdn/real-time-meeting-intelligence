@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+
+# Build outputs
+ui/dist/
+ui/out/
+*.dmg
+*.exe
+*.AppImage
+*.snap
+
+# Electron
+ui/release/
+
+# Audio/Media (don't commit recordings)
+*.wav
+*.mp3
+*.mp4
+*.webm
+recordings/
+
+# Transcripts (optional, may contain sensitive data)
+transcripts/
+*.transcript
+
+# User config (may contain sensitive playbook data)
+config/playbook.json
+config/playbook-*.json
+!config/playbook.example.json
+
+# Debug scripts (development only)
+backend/debug_audio.py
+backend/test_audio_routing.py
+
+# API keys and secrets
+*.pem
+*.key
+secrets/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,103 @@
+{
+  "user_settings": {
+    "my_speaker_label": "You",
+    "overlay_position": "bottom-right",
+    "overlay_opacity": 0.95,
+    "always_on_top": true,
+    "hotkey_toggle": "Ctrl+Shift+S"
+  },
+
+  "product_context": {
+    "product_name": "Acme CRM Pro",
+    "description": "Enterprise CRM solution with AI-powered lead scoring, automated follow-ups, and deep analytics integration.",
+    "target_audience": "Mid-market B2B companies with 50-500 employees",
+    "pricing_tiers": [
+      {"name": "Starter", "price": "$50/user/month", "features": "Basic CRM, email integration"},
+      {"name": "Professional", "price": "$100/user/month", "features": "AI scoring, automation, analytics"},
+      {"name": "Enterprise", "price": "Custom", "features": "Full suite, dedicated support, custom integrations"}
+    ]
+  },
+
+  "value_propositions": [
+    "Reduces manual data entry by 80%",
+    "Increases sales team productivity by 35%",
+    "Integrates with 200+ tools out of the box",
+    "Implementation in under 2 weeks",
+    "24/7 customer support included"
+  ],
+
+  "objection_playbook": {
+    "too_expensive": {
+      "triggers": ["too expensive", "over budget", "can't afford", "too much", "cost", "price"],
+      "responses": [
+        "Reframe as ROI: Ask about cost of current manual processes",
+        "Offer phased implementation to spread costs",
+        "Highlight hidden costs of not switching",
+        "Suggest starting with smaller team/tier"
+      ]
+    },
+    "need_to_think": {
+      "triggers": ["think about it", "get back to you", "discuss internally", "need time", "consider"],
+      "responses": [
+        "Ask what specific concerns need discussion",
+        "Offer to join internal meeting to answer questions",
+        "Set specific follow-up time before ending call",
+        "Provide summary document for internal review"
+      ]
+    },
+    "using_competitor": {
+      "triggers": ["already using", "have a solution", "current provider", "competitor", "salesforce", "hubspot"],
+      "responses": [
+        "Ask what they wish was better about current solution",
+        "Offer comparison or migration support",
+        "Share relevant case study of similar switch",
+        "Highlight unique differentiators"
+      ]
+    },
+    "bad_timing": {
+      "triggers": ["not the right time", "too busy", "next quarter", "year end", "budget cycle"],
+      "responses": [
+        "Ask what would need to change for timing to be right",
+        "Offer lighter-touch pilot program",
+        "Discuss cost of waiting (competitor advantage, etc.)",
+        "Schedule follow-up for better timing"
+      ]
+    },
+    "no_authority": {
+      "triggers": ["check with my", "need approval", "not my decision", "talk to my boss", "committee"],
+      "responses": [
+        "Offer to present to decision-makers directly",
+        "Provide materials they can share internally",
+        "Ask what would help them champion internally",
+        "Identify who else should be in the conversation"
+      ]
+    },
+    "not_convinced": {
+      "triggers": ["not sure", "don't see", "why would", "what's the benefit", "prove"],
+      "responses": [
+        "Share specific case study with metrics",
+        "Offer pilot or proof of concept",
+        "Ask what success would look like for them",
+        "Connect them with reference customer"
+      ]
+    }
+  },
+
+  "competitor_intel": {
+    "Salesforce": {
+      "weaknesses": ["Complex setup", "Expensive", "Requires dedicated admin"],
+      "our_advantage": "Implementation in 2 weeks vs 3+ months"
+    },
+    "HubSpot": {
+      "weaknesses": ["Limited customization", "Pricing scales quickly"],
+      "our_advantage": "More flexible pricing and deeper analytics"
+    }
+  },
+
+  "closing_techniques": [
+    "If I could address [concern], would you be ready to move forward?",
+    "What would need to happen for you to feel confident starting a pilot?",
+    "On a scale of 1-10, how close are we to a fit? What would get us to a 10?",
+    "Is there anyone else who should be part of this decision?"
+  ]
+}
