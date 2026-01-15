@@ -2,6 +2,8 @@
 
 A desktop application that listens to live sales calls (Zoom, Teams, Google Meet), transcribes in real-time, and provides AI-generated response suggestions displayed in an overlay.
 
+![Sales Assistant Overlay](docs/images/overlay_screenshot.png)
+
 ## Features
 
 - **Real-time transcription** - Powered by Deepgram's Nova-2 model
